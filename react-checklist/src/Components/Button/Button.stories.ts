@@ -18,15 +18,22 @@ type Story = StoryObj<typeof Button>;
 // Each named export = one story
 export const Primary: Story = {
   args: {
-    label: "Click me",
+    label: "Add task",
     variant: "primary",
   },
 };
 
-export const Secondary: Story = {
+export const Neutral: Story = {
   args: {
-    label: "Click me",
-    variant: "secondary",
+    label: "Edit",
+    variant: "neutral",
+  },
+};
+
+export const Subtle: Story = {
+  args: {
+    label: "Delete",
+    variant: "subtle",
   },
 };
 

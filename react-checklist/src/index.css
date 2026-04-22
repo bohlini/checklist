@@ -1,7 +1,7 @@
 :root {
   --color-primary--: #2C2C2C;
   --color-neutral--: #E3E3E3;
-  --color-subtle--: #FFFFFF 0%;
+  --color-subtle--: #FFFFFF;
   --color-background--: #FFFFFF;
   --color-primary-text--: #000000;
   --color-secondary-text--: #757575;
@@ -10,6 +10,13 @@
   --border-brand-default--: #5B4FCF;
   --border-neutral-secondary--: #5B4FCF;
 
+  --spacing-xs: 6px;
+  --spacing-sm: 8px;
+  --spacing-md: 10px;
+  --spacing-lg: 12px;
+
+  --body-sm: 14px;
+  --body-md: 16px;
 
   --text: #6b6375;
   --text-h: #08060d;
